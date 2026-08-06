@@ -1,0 +1,145 @@
+{
+    "meta": {
+        "name": "walk",
+        "layer": "lower_body",
+        "kind": "loop",
+        "category": "movement",
+        "emotion": "neutral",
+        "speed": 0.9,
+        "can_blend": true,
+        "compatible_with": [
+            "wave",
+            "point",
+            "look_around",
+            "happy",
+            "embarrassed"
+        ]
+    },
+    "phases": {
+        "start": null,
+        "loop": [
+            {
+                "pelvis": [
+                    0,
+                    0
+                ],
+                "l_hip": [
+                    -8,
+                    0
+                ],
+                "l_knee": [
+                    -22,
+                    30
+                ],
+                "l_foot": [
+                    -28,
+                    66
+                ],
+                "r_hip": [
+                    8,
+                    0
+                ],
+                "r_knee": [
+                    22,
+                    32
+                ],
+                "r_foot": [
+                    26,
+                    66
+                ]
+            },
+            {
+                "pelvis": [
+                    0,
+                    -4
+                ],
+                "l_hip": [
+                    -8,
+                    -4
+                ],
+                "l_knee": [
+                    -6,
+                    30
+                ],
+                "l_foot": [
+                    -2,
+                    64
+                ],
+                "r_hip": [
+                    8,
+                    -4
+                ],
+                "r_knee": [
+                    6,
+                    30
+                ],
+                "r_foot": [
+                    2,
+                    64
+                ]
+            },
+            {
+                "pelvis": [
+                    0,
+                    0
+                ],
+                "l_hip": [
+                    -8,
+                    0
+                ],
+                "l_knee": [
+                    -22,
+                    32
+                ],
+                "l_foot": [
+                    -26,
+                    66
+                ],
+                "r_hip": [
+                    8,
+                    0
+                ],
+                "r_knee": [
+                    22,
+                    30
+                ],
+                "r_foot": [
+                    28,
+                    66
+                ]
+            },
+            {
+                "pelvis": [
+                    0,
+                    -4
+                ],
+                "l_hip": [
+                    -8,
+                    -4
+                ],
+                "l_knee": [
+                    -6,
+                    30
+                ],
+                "l_foot": [
+                    -2,
+                    64
+                ],
+                "r_hip": [
+                    8,
+                    -4
+                ],
+                "r_knee": [
+                    6,
+                    30
+                ],
+                "r_foot": [
+                    2,
+                    64
+                ]
+            }
+        ],
+
+    "stop": null
+    }
+}

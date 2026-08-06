@@ -1,0 +1,130 @@
+{
+    "meta": {
+        "name": "trip",
+        "layer": "full_body",
+        "kind": "one_shot",
+        "category": "reaction",
+        "emotion": "embarrassed",
+        "speed": 1.0,
+        "can_blend": false,
+        "compatible_with": [
+            "embarrassed"
+        ]
+    },
+
+    "sequence": [
+        {
+            "time": 0.00,
+            "pose": {
+                "head": [0, -70],
+                "neck": [0, -55],
+                "chest": [0, -30],
+                "pelvis": [0, 0]
+            }
+        },
+
+        {
+            "time": 0.18,
+            "pose": {
+                "head": [18, -64],
+                "neck": [14, -50],
+                "chest": [10, -26],
+                "pelvis": [4, -2],
+
+                "l_shoulder": [10, -26],
+                "l_elbow": [-10, -44],
+                "l_hand": [-22, -60],
+
+                "r_shoulder": [10, -26],
+                "r_elbow": [34, -44],
+                "r_hand": [46, -60],
+
+                "l_hip": [-4, -2],
+                "l_knee": [-30, 26],
+                "l_foot": [-42, 58],
+
+                "r_hip": [12, -2],
+                "r_knee": [24, 34],
+                "r_foot": [20, 66]
+            }
+        },
+
+        {
+            "time": 0.40,
+            "pose": {
+                "head": [42, -34],
+                "neck": [34, -26],
+                "chest": [26, -10],
+                "pelvis": [14, 6],
+
+                "l_shoulder": [26, -10],
+                "l_elbow": [0, -20],
+                "l_hand": [-16, -30],
+
+                "r_shoulder": [26, -10],
+                "r_elbow": [52, -22],
+                "r_hand": [66, -34],
+
+                "l_hip": [6, 6],
+                "l_knee": [-20, 30],
+                "l_foot": [-36, 40],
+
+                "r_hip": [22, 6],
+                "r_knee": [36, 20],
+                "r_foot": [30, 48]
+            }
+        },
+
+        {
+            "time": 0.65,
+            "pose": {
+                "head": [50, 6],
+                "neck": [40, 12],
+                "chest": [30, 24],
+                "pelvis": [18, 34],
+
+                "l_shoulder": [30, 24],
+                "l_elbow": [2, 20],
+                "l_hand": [-14, 8],
+
+                "r_shoulder": [30, 24],
+                "r_elbow": [56, 18],
+                "r_hand": [70, 6],
+
+                "l_hip": [10, 34],
+                "l_knee": [-14, 46],
+                "l_foot": [-30, 40],
+
+                "r_hip": [26, 34],
+                "r_knee": [40, 44],
+                "r_foot": [34, 40]
+            }
+        },
+
+        {
+            "time": 1.00,
+            "pose": {
+                "head": [46, 12],
+                "neck": [36, 18],
+                "chest": [28, 30],
+                "pelvis": [16, 36],
+
+                "l_shoulder": [28, 30],
+                "l_elbow": [0, 26],
+                "l_hand": [-12, 14],
+
+                "r_shoulder": [28, 30],
+                "r_elbow": [54, 24],
+                "r_hand": [68, 12],
+
+                "l_hip": [8, 36],
+                "l_knee": [-16, 44],
+                "l_foot": [-32, 38],
+
+                "r_hip": [24, 36],
+                "r_knee": [38, 42],
+                "r_foot": [32, 38]
+            }
+        }
+    ]
+}

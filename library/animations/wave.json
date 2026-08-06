@@ -1,0 +1,57 @@
+{
+    "meta": {
+        "name": "wave",
+        "layer": "upper_body",
+        "kind": "loop",
+        "category": "gesture",
+        "emotion": "friendly",
+        "speed": 1.6,
+        "can_blend": true,
+        "compatible_with": [
+            "walk",
+            "happy",
+            "look_around"
+        ]
+    },
+
+    "phases": {
+        "start": [
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [18, -12],
+                "r_hand": [16, 8]
+            },
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [22, -46],
+                "r_hand": [30, -70]
+            }
+        ],
+
+        "loop": [
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [22, -46],
+                "r_hand": [44, -68]
+            },
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [22, -46],
+                "r_hand": [16, -74]
+            }
+        ],
+
+        "stop": [
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [22, -46],
+                "r_hand": [30, -70]
+            },
+            {
+                "r_shoulder": [0, -30],
+                "r_elbow": [18, -12],
+                "r_hand": [16, 8]
+            }
+        ]
+    }
+}
